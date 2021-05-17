@@ -3,6 +3,8 @@
 
 ⚠️ Caso o candidato não finaliza todo o desafio, enviar até o ponto em que conseguiu fazer, pois o mesmo ainda contará para avaliação;
 
+⚠️ Deverá ser enviado o link do repositório no github onde o código possa ser baixado para avaliação;
+
 ## Descrição
 
 A TriMania é uma loja que atua somente nas redes sociais mas que agora está avançando para a criação de um novo site de vendas. Para isso, seus desenvolvedores front-end precisam de uma api para realizar as seguintes ações: 
