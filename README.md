@@ -125,7 +125,7 @@ A estrutura do pedido deve ser o seguinte:
 Essa funcionalidade deverá retornar informações para que seja montado um relatório de vendas para a loja.
 Deverá seguir as seguintes regras:
 * Deverá haver os seguintes filtros:
-*   Período de vendas (Data de Início e Data de Fim)
+*   Período de vendas (Data de Início e Data de Fim) ¹
 *   Status (um ou mais status ao mesmo tempo)
 *   Usuario (um ou mais usuários)
 
@@ -133,12 +133,12 @@ Devera conter a seguinte estrutura
 
 ```
 {
-  "total_pedidos_concluidos":"int",
-  "total_pedidos_cancelados":"int",
-  "valor_total_pedidos_sem_desconto":"decimal",
-  "valor_total_pedidos_com_desconto":"decimal",
-  "pedidos":<objeto_pedido>,
-  "periodo_filtrado":"string",
+  "total_pedidos_concluidos"¹:"int",
+  "total_pedidos_cancelados"¹:"int",
+  "valor_total_pedidos_sem_desconto"¹:"decimal",
+  "valor_total_pedidos_com_desconto"¹:"decimal",
+  "pedidos"¹:<objeto_pedido>,
+  "periodo_filtrado"¹:"string",
   "status_filtrado":["enumeradores"],
   "usuarios_filtrados"²:["string"]
 }
