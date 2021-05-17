@@ -8,11 +8,11 @@
 ## Descrição
 
 A TriMania é uma loja que atua somente nas redes sociais mas que agora está avançando para a criação de um novo site de vendas. Para isso, seus desenvolvedores front-end precisam de uma api para realizar as seguintes ações: 
- - [ x ] ***Cadastros de usuário***
- - [ x ] ***Catálogo de produtos***
- - [ x ] ***Cadastro de vouncher de descontos***
- - [ x ] ***Venda de produtos***
- - [ x ] ***Relatório de vendas***
+ - [x] ***Cadastros de usuário***
+ - [x] ***Catálogo de produtos***
+ - [x] ***Cadastro de vouncher de descontos***
+ - [x] ***Venda de produtos***
+ - [x] ***Relatório de vendas***
  
  Onde
  
