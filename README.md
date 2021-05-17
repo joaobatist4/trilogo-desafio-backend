@@ -153,7 +153,7 @@ Para o desenvolvimento da api, a parte técnica deverá seguir as seguintes regr
 * Seguir os princípios do SOLID;
 * Utilizar o Banco de Dados MySql (Deverá ser enviado o script de criação do banco de dados para avaliação e testes. Pode incluílo no repositório);
 * A API deverá conter autenticação de usuário;
-* Testes Unitários;
+* Implementação de testes de unidade;
 
 Desejável (Opcional)
 * Implementação no padrão arquitetural CQRS(Command-Query Responsability Segregation);
