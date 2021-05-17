@@ -1,5 +1,6 @@
 # Desafio Backend
 ⚠️ Este desafio tem o intuito de avaliar novos candidatos para possível contratação.
+⚠️ Caso o candidato não finaliza todo o desafio, enviar até o ponto em que conseguiu fazer, pois o mesmo ainda contará para avaliação;
 
 ## Descrição
 
@@ -40,25 +41,18 @@ A TriMania é uma loja que atua somente nas redes sociais mas que agora está av
  Nesta funcionalidade deverá ser possível cadastrar, editar e excluir produtos da plataforma, cujo as informações são:
  ```
  {
-  "codigo":"int"¹,
-  "nome":"string"¹,
+  "codigo"¹:"int",
+  "nome"¹:"string",
   "descricao":"string",
-  "valor_custo":"decimal"¹,
-  "valor_venda":"decimal"¹,
+  "valor_custo"¹:"decimal",
+  "valor_venda"¹:"decimal",
   "categoria"¹:{
       "codigo":"int",
       "descricao":"string"
       },
-  "data_cadastro":"0001-01-01 00:00:00"¹,
-  "autor_cadastro"¹:{
-      "codigo":"int",
-      "nome":"string"¹,
-      "cpf":"string"¹,
-      "email":"string"¹,
-      "data_de_nascimento":"0001-01-01 00:00:00",
-      "data_de_cadastro":"0001-01-01 00:00:00"¹
-    },
-  "ativo":"bool"¹
+  "data_cadastro"¹:"0001-01-01 00:00:00",
+  "autor_cadastro"¹:<objeto_usuario>,
+  "ativo"¹:"bool"
  }
  ```
  * Deve ser possível pesquisar pelo produto utilizando um filtro por termo onde poderá ser filtrado pelos seus atributos, e por um filtro onde eu possa buscar produtos ativos ou inativos
@@ -70,16 +64,17 @@ A TriMania é uma loja que atua somente nas redes sociais mas que agora está av
  
  ```
  {
-  "codigo":"int"¹,
-  "vouncher":"string"¹,
+  "codigo"¹:"int",
+  "vouncher"¹:"string",
   "valor":"decimal",
   "porcentagem":"decimal",
-  "data_cadastro":"0001-01-01 00:00:00"¹,
-  "ativo":"bool"¹
+  "data_cadastro"¹:"0001-01-01 00:00:00",
+  "ativo"¹:"bool"
  }
  ```
  
  * O campo *vouncher* deverá ser um atributo randomico, gerado automaticamente pelo código;
+ * O vouncher deverá ter OU o campo valor preenchido OU o campo percentual preenchido, nunca os dois preenchidos em um único vouncher;
 
 ### Venda de produtos
 
