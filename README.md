@@ -72,6 +72,8 @@ A TriMania é uma loja que atua somente nas redes sociais mas que agora está av
  {
   "codigo":"int"¹,
   "vouncher":"string"¹,
+  "valor":"decimal",
+  "porcentagem":"decimal",
   "data_cadastro":"0001-01-01 00:00:00"¹,
   "ativo":"bool"¹
  }
