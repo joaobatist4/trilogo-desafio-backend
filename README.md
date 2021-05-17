@@ -34,7 +34,7 @@ A TriMania é uma loja que atua somente nas redes sociais mas que agora está av
  ```
  * Deve ser possível pesquisar pelo usuário utilizando um filtro por termo, onde poderá ser filtrado pelos seus atributos. Mas atenção ⚠️ O usuário não poderá ser excluído se houver pedidos cadastrados para ele.
  * A listagem dos produtos devem ser paginadas de maneira que venha 10 produtos por página.
- * O usuário deverá conter um login e senha para autenticação. Fica a cargo do candidato em como fazer a implementação dessa funcionalidade, porém a autenticação deve utilizar o JWT (https://jwt.io/) para geração de token;
+ * ⚠️ O usuário deverá conter um login e senha para autenticação. Fica a cargo do candidato em como fazer a implementação dessa funcionalidade, porém a autenticação deve utilizar o JWT (https://jwt.io/) para geração de token;
  
  ### Catálogo de Produtos
  Nesta funcionalidade deverá ser possível cadastrar, editar e excluir produtos da plataforma, cujo as informações são:
@@ -154,10 +154,10 @@ Para o desenvolvimento da api, a parte técnica deverá seguir as seguintes regr
 * Testes Unitários;
 
 Desejável (Opcional)
-* Implementação no modelo CQRS(Command-Query Responsability Segregation);
+* Implementação no padrão arquitetural CQRS(Command-Query Responsability Segregation);
 * Implementação usando MediatR (Padrão mediator - https://github.com/jbogard/MediatR);
 * Implementação de testes automatizados;
 
- ###### ---------------------------------------------------------------------------
- ###### ¹ - Informações obrigatórias
- ###### ² - Apenas os nomes dos usuários
+ ###### _________________________________________________________________________________________________________________________________________________________________
+ ###### ¹ Informações obrigatórias
+ ###### ² Apenas os nomes dos usuários
