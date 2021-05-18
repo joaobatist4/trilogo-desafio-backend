@@ -5,6 +5,8 @@
 
 ⚠️ Deverá ser enviado o link do repositório no github onde o código possa ser baixado para avaliação;
 
+⚠️ Colocar as instruções no arquivo README.md de como deve ser preparado o ambiente para testar a aplicação;
+
 ## Descrição
 
 A TriMania é uma loja que atua somente nas redes sociais mas que agora está avançando para a criação de um novo site de vendas. Para isso, seus desenvolvedores front-end precisam de uma api para realizar as seguintes ações: 
