@@ -149,7 +149,7 @@ Devera conter a seguinte estrutura
 
 Para o desenvolvimento da api, a parte técnica deverá seguir as seguintes regras:
 * Deverá ser utilizado aspnet core 3.1 ou superior;
-* Deverá ser utilizado Entity Framework 3.1 ou superior;
+* Deverá ser utilizado Entity Framework Core 3.1 ou superior;
 * Deverá seguir o conceito de Arquitetura Limpa (https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures);
 * Seguir os princípios do SOLID;
 * Utilizar o Banco de Dados MySql (Deverá ser enviado o script de criação do banco de dados para avaliação e testes. Pode incluí-lo no repositório);
