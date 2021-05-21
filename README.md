@@ -125,10 +125,10 @@ A estrutura do pedido deve ser o seguinte:
 ### Relatório de Vendas
 Essa funcionalidade deverá retornar informações para que seja montado um relatório de vendas para a loja.
 Devem ser seguidas as seguintes regras:
-* Deverão haver os seguintes filtros::
-*   Período de vendas (Data de Início e Data de Fim) ¹
-*   Status (um ou mais status ao mesmo tempo)
-*   Usuario (um ou mais usuários)
+* Deverão haver os seguintes filtros:
+*    Período de vendas (Data de Início e Data de Fim) ¹
+*    Status (um ou mais status ao mesmo tempo)
+*    Usuario (um ou mais usuários)
 
 Devera conter a seguinte estrutura
 
