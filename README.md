@@ -16,7 +16,7 @@ A TriMania é uma loja que atua somente nas redes sociais mas que agora está av
  - [x] ***Venda de produtos***
  - [x] ***Relatório de vendas***
  
- Onde
+ Onde:
  
  ### Cadastro de Usuários
  
