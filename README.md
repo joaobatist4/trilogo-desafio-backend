@@ -160,7 +160,7 @@ Desejável (Opcional)
 * Implementação no padrão arquitetural CQRS(Command-Query Responsability Segregation);
 * Implementação usando MediatR (Padrão mediator - https://github.com/jbogard/MediatR);
 * Implementação de testes automatizados;
-* Utilizar Entity Framework para a escrita dos dados e Dapper para a consulta dos dados;
+* Utilizar Entity Framework Core 3.1 ou superior para a escrita dos dados e Dapper para a consulta dos dados;
 
  ###### _____________________________________________________________________________________________________________________________________
  ###### ¹ Informações obrigatórias
