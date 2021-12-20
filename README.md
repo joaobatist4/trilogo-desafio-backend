@@ -56,6 +56,7 @@ Devem ser seguidas as seguintes regras:
 * Deverá ter as seguintes formas de pagamento: 'cartão de crédito', 'à vista' ou 'boleto';
 * Um pedido deverá ter o status *Aberto*, *Em andamento*, *Cancelado* e *Concluído*;
 * O valor do item do pedido deve ser o somatório dos produtos;
+* Não será possível vender produtos sem estoque disponível;
 
 A estrutura do produto deverá ser a seguinte:
 ```
