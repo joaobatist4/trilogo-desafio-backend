@@ -57,6 +57,19 @@ Devem ser seguidas as seguintes regras:
 * Um pedido deverá ter o status *Aberto*, *Em andamento*, *Cancelado* e *Concluído*;
 * O valor do item do pedido deve ser o somatório dos produtos;
 
+A estrutura do produto deverá ser a seguinte:
+```
+
+{
+ "id"¹:"int",
+ "name":"string",
+ "description":"string",
+ "quantity":"int",
+ "price":""decimal"
+}
+
+```
+
 A estrutura do pedido deve ser o seguinte:
 ```
 {
